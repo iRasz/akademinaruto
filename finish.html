@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jawaban MLBB X Naruto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      color: #eee;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 60px 20px 40px;
+    }
+    .container {
+      max-width: 720px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 30px 40px 40px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 10px;
+      color: #fafafa;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+    .description {
+      text-align: center;
+      font-size: 1.05rem;
+      margin-top: 10px;
+      color: #d0e3ffcc;
+    }
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 30px 0 20px;
+    }
+    .btn-group a {
+      display: flex;
+      align-items: center;
+      background: #50a0ff;
+      color: white;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .btn-group a img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+    .btn-group a:hover {
+      background: #3681cc;
+    }
+    #search {
+      width: 100%;
+      padding: 14px 20px;
+      font-size: 1.25rem;
+      border-radius: 30px;
+      border: 2px solid transparent;
+      outline: none;
+      font-family: 'JetBrains Mono', monospace;
+      background: rgba(255, 255, 255, 0.15);
+      color: #fafafa;
+      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3);
+      transition: all 0.35s ease;
+    }
+    #search::placeholder {
+      color: #d0d0d0;
+      font-style: italic;
+    }
+    #search:focus {
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 0 8px 3px #50a0ff88;
+      border-color: #50a0ff;
+      color: #fff;
+    }
+    #results {
+      margin-top: 40px;
+      display: grid;
+      gap: 24px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      padding: 28px 30px;
+      box-shadow: 0 6px 28px rgba(0, 0, 0, 0.35);
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #dce9fc;
+    }
+    .question {
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-bottom: 14px;
+    }
+    .answer {
+      color: #b8d0ffcc;
+      font-weight: 500;
+      font-family: 'JetBrains Mono', monospace;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 14px 18px;
+    }
+    .highlight {
+      background: yellow;
+      color: #000;
+      font-weight: bold;
+      padding: 0 2px;
+      border-radius: 3px;
+    }
+    footer {
+      margin-top: 48px;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #c0d2ffaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Jawaban MLBB X Naruto</h1>
+    <p class="description">Kunci Jawaban Akademi Ninja MLBB X Naruto Paling Lengkap Dan Ada Fitur Search!</p>
+
+    <div class="btn-group">
+      <a href="https://instagram.com/farrastyle_" target="_blank"><img src="https://files.catbox.moe/wzlckb.png" alt="Instagram">farrastyle_</a>
+      <a href="https://www.tiktok.com/@praslv" target="_blank"><img src="https://files.catbox.moe/nulwxl.png" alt="TikTok">praslv</a>
+    </div>
+    <div class="btn-group">
+      <a href="https://guns.lol/rass" target="_blank"><img src="https://files.catbox.moe/t20jw6.png" alt="Web">Website</a>
+      <a href="https://whatsapp.com/channel/0029VaHheNk4SpkFwASXLd2Q" target="_blank"><img src="https://files.catbox.moe/5cuui7.png" alt="WA">Saluran WA</a>
+    </div>
+
+    <input type="search" id="search" placeholder="Cari soal... Contoh: item mana" />
+    <div id="results">Mulai ketik di atas untuk cari soal</div>
+  </div>
+
+  <footer>&copy; 2025 Rass</footer>
+
+  <script>const data = [
+    { "question": "Naruto Uzumaki itu Hokage generasi keberapa?", "answer": "6" },
+    { "question": "Bijuu apa yang disegel di dalam Gaara?", "answer": "Ekor Satu" },
+    { "question": "Berapa jumlah skill aktif yang dimiliki hero Suyou?", "answer": "6" },
+    { "question": "Atribut apa yang diberikan Walkie Grass ketika mengikuti hero yang mengeliminasinya?", "answer": "Pemulihan Mana dan Movement Speed" },
+    { "question": "Berapa hari kamu harus sign in untuk mengklaim hadiah achievement pertama di event Sign-in Harian Ramen Ichiraku?", "answer": "15 Hari" },
+    { "question": "Senjata apa yang digunakan oleh Susano’o Sasuke?", "answer": "Busur & Panah" },
+    { "question": "Manakah karakter yang tidak punya Rinnegan?", "answer": "Naruto" },
+    { "question": "Berapa jumlah hero yang ada dalam game saat ini?", "answer": "128" },
+    { "question": "Kapan Magic Sentry muncul di area high ground timmu?", "answer": "Muncul ketika Inner Turret di Side Lane mana pun dihancurkan" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Emote Kakashi di kolab MLBB x NARUTO?", "answer": "Draw Skin MLBB X NARUTO" },
+    { "question": "Siapa nama kakak perempuan Gaara?", "answer": "Temari" },
+    { "question": "Jenis Ninjutsu mana yang digunakan untuk memanggil Gamabunta?", "answer": "Summoning Jutsu" },
+    { "question": "Berapa durasi maksimal pusaran angin dapat bertahan di ujung area serangan saat Vale menggunakan Skill 2 [Windblow]?", "answer": "1,6 detik" },
+    { "question": "Dalam Mode Rank normal, berapa kali kamu bisa mengalahkan Turtle sebelum Lord muncul?", "answer": "3 Kali" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Hayabusa “Kakashi Hatake” di kolab MLBB × NARUTO?", "answer": "Draw Skin MLBB X Naruto" },
+    { "question": "Saat ujian tertulis di Ujian Chunin, siapa yang duduk di samping Naruto?", "answer": "Hinata" },
+    { "question": "Apa fungsi utama dari kemampuan Kamui pada Mangekyo Sharingan?", "answer": "Berpindah antar dimensi" },
+    { "question": "Battle Spell manakah yang punya cooldown paling singkat?", "answer": "Retribution" },
+    { "question": "Dari pilihan equipment di bawah ini, manakah yang TIDAK meningkatkan HP?", "answer": "Blood Wings" },
+    { "question": "Makhluk apa yang bisa dipanggil Sakura Haruno?", "answer": "Siput" },
+    { "question": "Dari ketiga ninja berikut, siapa yang mengaktifkan bentuk Susano’o Tubuh Lengkap selama Perang Dunia Ninja Keempat?", "answer": "Madara" },
+    { "question": "Dari pilihan equipment di bawah ini, manakah yang TIDAK memberikan efek Pengurangan Pemulihan?", "answer": "Malefic Roar" },
+    { "question": "Buff apa yang diterima hero rekan di sekitar ketika Energy Shield Turret aktif?", "answer": "menerima lebih sedikit damage" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Emote Hinata di kolab MLBB NARUTO?", "answer": "Sign-in Harian Ramen Ichiraku" },
+    { "question": "Siapa Hokage Keempat?", "answer": "Minato Namikaze" },
+    { "question": "Selain perpindahan, efek tambahan apa yang diberikan Battle Spell Flicker?", "answer": "Mendapatkan Hybrid Defense" },
+    { "question": "Dalam 2 menit pertama, berapa banyak damage tambahan yang diterima hero rekan di area Jungle musuh?", "answer": "20%" },
+    { "question": "Manakah yang BUKAN Ninjutsu milik Gaara?", "answer": "Rasengan" },
+    { "question": "Siapa yang dikenal sebagai “Ninja Peniru” di NARUTO?", "answer": "Kakashi Hatake" },
+    { "question": "Dalam Mode Rank, berapa kali kamu perlu menggunakan Retribution sebelum skill-nya diperkuat?", "answer": "5 Kali" },
+    { "question": "Pada tanggal berapa setiap bulannya periode StarLight Member akan diperbarui dalam game?", "answer": "Ke-1" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Emote Deidara di kolab MLBB NARUTO?", "answer": "Akademi Ninja" },
+    { "question": "Siapa nama ayah Sasuke?", "answer": "Fugaku Uchiha" },
+    { "question": "Siapa guru Sakura Haruno yang merupakan salah satu Sannin Legendaris?", "answer": "Tsunade" },
+    { "question": "Apa Role Suyou?", "answer": "Assassin/Fighter" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Vale “Gaara” di kolab MLBB x NARUTO?", "answer": "Jalan Seorang Ninja" },
+    { "question": "Apa tipe Elemen Chakra dari Chidori?", "answer": "Elemen Petir" },
+    { "question": "Shadow Clone Jutsu Naruto termasuk jenis Ninjutsu apa?", "answer": "Ninjutsu" },
+    { "question": "Pada level berapa Lukas bisa mengaktifkan skill untuk bertransformasi menjadi Makhluk Suci?", "answer": "Level 4" },
+    { "question": "Manakah dari hero berikut yang merupakan Tank?", "answer": "Baxia" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Emote Sakura di kolab MLBB x NARUTO?", "answer": "Draw Skin MLBB X Naruto" },
+    { "question": "Siapa ayah Kakashi?", "answer": "Sakumo Hatake" },
+    { "question": "Berapa detik durasi maksimal efek peningkatan Basic Attack Lukas dari [Flash Step]?", "answer": "4 detik" },
+    { "question": "Item mana yang TIDAK BISA didapatkan melalui event Jalan Seorang Ninja MLBB × NARUTO?", "answer": "Token Kolab" },
+    { "question": "Klan mana yang punya Sharingan sebagai Kekkei Genkai (Kemampuan Keturunan) mereka?", "answer": "Klan Uchiha" },
+    { "question": "Dalam Mode Rank normal, pada menit ke berapa Turret kehilangan Energy Shield-nya?", "answer": "05:00" },
+    { "question": "Apa nama energy yang dibutuhkan Lukas sebanyak 100 poin untuk bisa berubah menjadi wujud Makhluk Suci?", "answer": "Resolve" },
+    { "question": "Bagaimana cara mendapatkan Vale “Gaara” melalui event Jalan Seorang Ninja MLBB NARUTO?", "answer": "Capai Jonin" },
+    { "question": "Siapa yang BUKAN merupakan anggota Tim Taka Sasuke?", "answer": "Kabuto" },
+    { "question": "Siapa ayah Naruto?", "answer": "Minato Namikaze" },
+    { "question": "Dalam Mode Rank, berapa jumlah maksimal equipment (tidak termasuk item habis pakai) yang bisa dibawa hero?", "answer": "6" },
+    { "question": "Melalui event apa kamu bisa mendapatkan Emote Sasuke di kolab MLBB NARUTO?", "answer": "Draw Skin MLBB X Naruto" },
+    { "question": "Siapa nama julukan Minato Namikaze?", "answer": "Yellow Flash" },
+    { "question": "Kakashi Hatake itu Hokage generasi keberapa?", "answer": "6" },
+    { "question": "Berapa lama durasi Arus Turtle di mode 5v5 standar?", "answer": "15 detik" },
+    { "question": "Kapan pertarungan melawan Madara berlangsung setiap minggu di kolab MLBB NARUTO?", "answer": "Jumat-Minggu" },
+    { "question": "Siapa Jinchuriki Ekor Sembilan yang pertama?", "answer": "Mito Uzumaki" },
+    { "question": "Berapa maksimal jumlah serangan Ultimate Hayabusa?", "answer": "12" },
+    { "question": "Apa nama Ultimate yang bisa digunakan Lukas setelah menggunakan [Unleash the Beast]?", "answer": "Shockwave Blast" },
+    { "question": "Dari pilihan equipment di bawah ini, manakah yang TIDAK meningkatkan Physical Attack?", "answer": "Athena’s Shield" },
+    { "question": "Pada serangan keberapa Basic Attack Kalea bisa memulihkan HP rekan?", "answer": "2" },
+    { "question": "Di mana kamu bisa mendapatkan Emote Naruto di kolab MLBB x NARUTO?", "answer": "Galeri MLBB X Naruto" },
+    { "question": "Apa makanan favorit Naruto?", "answer": "Ramen" },
+    { "question": "Dari pilihan equipment di bawah ini, manakah yang bisa menyebabkan Efek Slow?", "answer": "Thunder Belt" },
+    { "question": "Susano’o siapa yang menggunakan Cermin Yata?", "answer": "Itachi Uchiha" },
+    { "question": "Manakah yang termasuk Ninjutsu Naruto?", "answer": "Rasengan" },
+    { "question": "Berapa jumlah shuriken Skill 1 Hayabusa?", "answer": "3" },
+    { "question": "Event mana yang tidak memberikan achievement di kolab MLBB NARUTO?", "answer": "Draw Skin MLBB NARUTO" },
+    { "question": "Dari Talent berikut, manakah yang meningkatkan damage yang diberikan oleh rekan?", "answer": "Focusing Mark" },
+    { "question": "Kapan Turtle pertama muncul?", "answer": "02:00" },
+    { "question": "Siapa yang tidak pernah jadi guru Sasuke?", "answer": "Tsunade" },
+    { "question": "Pada menit keberapa Lord berevolusi dan menjadi jauh lebih kuat?", "answer": "18" },
+    { "question": "Ninjutsu apa yang dipakai Nenek Chiyo untuk menghidupkan kembali Gaara?", "answer": "Reanimation Jutstu" },
+    { "question": "Berapa Poin Pelatihan yang bisa kamu dapatkan dari Quest Harian setiap hari di event Jalan Seorang Ninja?", "answer": "75" },
+    { "question": "Manakah yang termasuk Ninjutsu peringkat S milik Sasuke?", "answer": "Kirin" },
+    { "question": "Berapa banyak voice line yang dimiliki setiap karakter di kolab MLBB NARUTO?", "answer": "10" },
+    { "question": "Gaara itu Kazekage generasi keberapa?", "answer": "5" },
+    { "question": "Berapa Talent Emblem yang bisa dibawa player ke pertandingan?", "answer": "3" },
+    { "question": "Berapa total tingkatan hadiah yang tersedia di event Jalan Seorang Ninja?", "answer": "9" },
+    { "question": "Berapa perbedaan paling banyak yang harus kamu temukan untuk menyelesaikan Pelatihan Genjutsu di event Jalan Seorang Ninja?", "answer": "5" },
+    { "question": "Berapa bonus Movement Speed maksimal yang bisa didapatkan Vale dari skill pasif [Windtalk]?", "answer": "80" },
+    { "question": "Bijuu apa yang disegel di dalam Naruto Uzumaki?", "answer": "Ekor Sembilan" },
+    { "question": "Sharingan Kakashi dulunya milik siapa?", "answer": "Obito Uchiha" },
+    { "question": "Pada menit keberapa skill [Holy Defense] dari Base Turret tidak lagi berlaku?", "answer": "12" },
+    { "question": "Manakah dari peningkatan berikut yang TIDAK didapatkan Suyou dalam wujud Makhluk Abadi?", "answer": "Serang" },
+    { "question": "Kapan pertarungan pertama melawan Madara di kolab MLBB x NARUTO?", "answer": "09/05" },
+    { "question": "Siapa yang menciptakan Rasengan?", "answer": "Minato Namikaze" },
+    { "question": "Siapa yang menjadi Pemimpin Tertinggi Pasukan Aliansi Shinobi selama Perang Dunia Ninja Keempat?", "answer": "Ay" },
+    { "question": "Siapakah Jonin yang memimpin Tim Kakashi selama Perang Dunia Ninja Ketiga?", "answer": "Minato Namikaze" },
+    { "question": "Di Wilayah Sage mana Naruto mempelajari Sage Mode?", "answer": "Gunung Myoboku" },
+    { "question": "Berapa jumlah Diamond yang bisa kamu dapatkan dari Weekly Diamond Pass?", "answer": "220" },
+    { "question": "Ada berapa total Battle Emote di kolab MLBB NARUTO?", "answer": "13" },
+    { "question": "Apa tingkat kelangkaan skin yang tersedia di Magic Wheel?", "answer": "Legend" },
+    { "question": "Kapan event kolab MLBB NARUTO berakhir?", "answer": "15/06" },
+    { "question": "Berapa jumlah anggota tim lobby yang TIDAK DIPERBOLEHKAN untuk pertandingan Rank?", "answer": "4 Player" },
+    { "question": "Apa yang dibawa Gaara di punggungnya?", "answer": "Gentong" },
+    { "question": "Dengan 1.000 Physical Attack tambahan, berapa Pengurangan Damage yang didapatkan Suyou dalam wujud Makhluk Abadi?", "answer": "40%" },
+    { "question": "Item mana yang tidak bisa ditukar dengan Bead di kolab MLBB NARUTO?", "answer": "Vale Gaara" },
+    { "question": "Efek apa yang didapatkan setelah mengaktifkan talent War Cry?", "answer": "Semua damage yang diberikan meningkat 8%" },
+    { "question": "Berapa jenis hadiah yang tersedia di kolab MLBB NARUTO?", "answer": "3" },
+    { "question": "Pedang mana yang digunakan Sasuke?", "answer": "Pedang Ular" },
+    { "question": "Berapa klan yang bisa kamu pilih di event Jalan Seorang Ninja?", "answer": "4" },
+    { "question": "Manakah karakter yang tidak pernah menggunakan Reaper Death Seal?", "answer": "Naruto Uzumaki" },
+    { "question": "Kapan event kolab MLBB NARUTO resmi dimulai?", "answer": "02/05" },
+    { "question": "Berapa jumlah maksimal stack untuk skill pasif Vale “Windtalk”?", "answer": "10" },
+    { "question": "Item mana yang tidak bisa didapatkan melalui event Sign-in Harian Ramen Ichiraku MLBB NARUTO?", "answer": "Vale Gaara" },
+    { "question": "Di antara karakter ini, manakah yang BUKAN merupakan anggota Tim Kakashi (Tim 7) di Konohagakure?", "answer": "Neji Hyuga" },
+    { "question": "Manakah dari atribut berikut yang TIDAK termasuk dalam bonus 15% semua atribut ketika Lukas dalam wujud Makhluk Suci?", "answer": "Movement Speed Dasar" },
+    { "question": "Manakah yang BUKAN merupakan salah satu Jutsu andalan Gaara?", "answer": "Rasengan" },
+    { "question": "Apa nama Jutsu yang digunakan Minato Namikaze untuk langsung berpindah ke lokasi atau objek yang sudah ditandai?", "answer": "Flying Raijin Jutsu" },
+    { "question": "Siapa yang mengalahkan Sasori bersama Nenek Chiyo?", "answer": "Sakura Haruno" },
+    { "question": "Berapa jenis Efek Loading yang tersedia di kolab MLBB NARUTO?", "answer": "2" }
+];
+    
+
+    function highlight(text, term) {
+      if (!term) return text;
+      const escapedTerm = term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(`(${escapedTerm})`, 'gi');
+      return text.replace(regex, '<span class="highlight">$1</span>');
+    }
+
+    function renderResults(results, term) {
+      const container = document.getElementById('results');
+      if (results.length === 0) {
+        container.innerHTML = '<p style="color:#a8b9d1;">Tidak ada hasil ditemukan.</p>';
+        return;
+      }
+      container.innerHTML = results.map(item => `
+        <article class="card">
+          <h2 class="question">${highlight(item.question, term)}</h2>
+          <pre class="answer">${highlight(item.answer, term)}</pre>
+        </article>
+      `).join('');
+    }
+
+    function search(term) {
+      term = term.trim().toLowerCase();
+      if (!term) {
+        document.getElementById('results').innerHTML = 'Mulai ketik di atas untuk cari soal';
+        return;
+      }
+      const results = data.filter(item =>
+        item.question.toLowerCase().includes(term) ||
+        item.answer.toLowerCase().includes(term)
+      );
+      renderResults(results, term);
+    }
+
+    document.getElementById('search').addEventListener('input', (e) => {
+      search(e.target.value);
+    });
+
+    document.getElementById('results').innerHTML = 'Data berhasil dimuat. Silakan cari soal.';
+  </script>
+
+</body>
+</html>
